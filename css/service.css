@@ -1,0 +1,170 @@
+main {
+    background-color: #19222ccb;
+
+    /* background-color: rgb(69, 69, 69); */
+}
+
+#mainContain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0.5em 0;
+
+    font-size: 4em;
+    font-weight: 800;
+
+    /*! Color de letra  */
+    /* background: -webkit-linear-gradient( #ffffff, rgb(188, 188, 188)); */
+    background: -webkit-linear-gradient( #4203ff, rgb(0, 255, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    color:aliceblue;
+
+    display: flex;
+    justify-content: center;
+}
+
+.tecnology{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tecnologyReverse {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.boxColor {
+    margin: 2em 1em;
+    width: 60%;
+    color: aliceblue;
+    background-color: rgba(0,0,0, 0.8);
+    justify-content: space-between;
+    
+    border-radius: 0.5em;
+}
+
+.tecnology > img,
+.tecnologyReverse > img {
+    width: 23em;
+    border-radius: 0.5em;
+
+}
+
+.tecnoDescryption {
+    margin: 2em 1em;
+    width: 30em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.tecnoDescryption > p {
+    font-size: 1.5em;
+}
+
+.logoIcono{
+    width: 9em;
+    margin: 1em;
+}
+
+.logoIconoCuadrado {
+    width: 6em;
+    margin: 1em;
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        margin: 0.5em 0;
+        padding: 1em;
+    
+        width: 15em;
+        font-size: 1.5em;
+        font-weight: 600;
+    
+        /*! Color de letra  */
+        /* background: -webkit-linear-gradient( #ffffff, rgb(188, 188, 188)); */
+        background: -webkit-linear-gradient( #4203ff, rgb(0, 255, 247));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    h2 {
+        width: 16.5em;
+
+        color:aliceblue;
+        font-size: 1em;
+        
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tecnology{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .tecnologyReverse {
+        display: flex;
+        flex-flow: row-reverse wrap;
+    }
+    
+    .boxColor {
+        margin: 2em 1em;
+        width: 60%;
+        color: aliceblue;
+        background-color: rgba(0,0,0, 0.2);
+        justify-content: space-between;
+        
+        border-radius: 0.5em;
+    }
+    
+    .tecnology > img,
+    .tecnologyReverse > img {
+        min-width: 15em;
+        border-radius: 0.5em;
+    
+    }
+    
+    .tecnoDescryption {
+        margin: 2em 1em;
+        width: 30em;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        
+    }
+    
+    .tecnoDescryption > p {
+        font-size: 1.5em;
+    }
+    
+    .logoIcono{
+        width: 9em;
+        margin: 1em;
+    }
+    
+    .logoIconoCuadrado {
+        width: 6em;
+        margin: 1em;
+    
+    }
+}
