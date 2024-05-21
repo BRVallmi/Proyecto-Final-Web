@@ -55,6 +55,7 @@ h2 {
 
 .tecnology > img,
 .tecnologyReverse > img {
+    padding: 2em;
     width: 23em;
     border-radius: 0.5em;
 
@@ -67,8 +68,15 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+}
 
-    
+.tecnoDescryption > h2 {
+    font-weight: 800;
+    font-size: 2em;
+    background: -webkit-linear-gradient(45deg,  #4203ff, rgb(0, 255, 247) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .tecnoDescryption > p {
@@ -82,8 +90,30 @@ h2 {
 
 .logoIconoCuadrado {
     width: 6em;
-    margin: 1em;
 
+}
+
+#titleCooming {
+    background: -webkit-linear-gradient( #4203ff, rgb(0, 255, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.cooming {
+    display: flex;
+    width: 60%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.boxColumn {
+    width: 45%;
+    height: 20em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 600px) {
