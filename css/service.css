@@ -121,46 +121,45 @@ h2 {
         margin: 0.5em 0;
         padding: 1em;
     
-        width: 15em;
+        width: 17em;
         font-size: 1.5em;
         font-weight: 600;
     
-        /*! Color de letra  */
-        /* background: -webkit-linear-gradient( #ffffff, rgb(188, 188, 188)); */
+
         background: -webkit-linear-gradient( #4203ff, rgb(0, 255, 247));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     
-        display: flex;
-        justify-content: center;
+       
     }
     
     h2 {
-        width: 16.5em;
-
         color:aliceblue;
-        font-size: 1em;
         
         display: flex;
         justify-content: center;
     }
+
+    #mainContain > h2{
+        padding: 0 1em;
+        font-size: 1em;
+    }
     
     .tecnology{
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
     }
     
     .tecnologyReverse {
         display: flex;
-        flex-flow: row-reverse wrap;
+        flex-flow: column wrap;
     }
     
     .boxColor {
-        margin: 2em 1em;
-        width: 60%;
+        width: 100%;
         color: aliceblue;
         background-color: rgba(0,0,0, 0.2);
-        justify-content: space-between;
+        align-items: center;
         
         border-radius: 0.5em;
     }
@@ -174,17 +173,18 @@ h2 {
     
     .tecnoDescryption {
         margin: 2em 1em;
-        width: 30em;
+        width: 80%;
     
         display: flex;
         flex-direction: column;
         align-items: center;
-    
-        
+    }
+    .tecnoDescryption > h2 {
+        font-size: 1.5em;
     }
     
     .tecnoDescryption > p {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     
     .logoIcono{
@@ -196,5 +196,9 @@ h2 {
         width: 6em;
         margin: 1em;
     
+    }
+
+    .cooming {
+        width: 80%;
     }
 }
