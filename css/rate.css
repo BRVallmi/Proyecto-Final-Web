@@ -48,7 +48,7 @@ main{
 }
 
 .colorBox:first-child{
-    background-color: brown;
+    background-color: goldenrod;
 }
 
 .colorBox:nth-child(2){
@@ -56,7 +56,7 @@ main{
 }
 
 .colorBox:last-child{
-    background-color: gold;
+    background-color: brown;
 }
 
 .colorBox::before{
@@ -84,13 +84,13 @@ main{
 .ratePrice{
     position: relative;
     width: 20em;
-    height: 27em;
+    height: 30em;
     margin: 0.5em;
     padding: 2em;
     
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: aliceblue;
     
@@ -119,6 +119,15 @@ main{
 
 .listOption {
     padding-left: 1em;
+}
+
+.listOption  ul {
+    list-style: none;
+    padding-left: 1.5em;
+}
+
+.listOption  ul li::before {
+    content: "- ";
 }
 
 .btn {
