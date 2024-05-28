@@ -84,6 +84,10 @@ h2 {
     height: 15em;
 }
 
+#iconoWindow {
+    width: 15em;
+}
+
 .tecnoDescryption > p {
     font-size: 1.5em;
 }
