@@ -58,7 +58,7 @@
     margin: 0.3em 0;
     font-size: 3em;
     font-weight: 800;
-    background: -webkit-linear-gradient( #4203ff, rgb(0, 255, 247));
+    background: -webkit-linear-gradient( #03ff5b, rgb(0, 255, 4));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -66,7 +66,7 @@
 .titulos > h2{
     margin: 0.3em 0;
     font-size: 2em;
-    background: -webkit-linear-gradient(45deg,  #4203ff, rgb(0, 255, 247) 100%);
+    background: -webkit-linear-gradient( #03ff5b, rgb(0, 255, 4));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
